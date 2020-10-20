@@ -17,7 +17,7 @@ const {
   SIXTY_MINUTES_IN_SECONDS
 } = require('../utils/time');
 
-// JWT strategy
+// JWT strategy -
 require('../utils/auth/strategies/jwt');
 
 function moviesApi(app) {

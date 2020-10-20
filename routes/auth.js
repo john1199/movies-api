@@ -13,7 +13,7 @@ const {
 
 const { config } = require('../config');
 
-// Basic strategy
+// Basic strategy - 
 require('../utils/auth/strategies/basic');
 
 function authApi(app) {
